@@ -1,6 +1,7 @@
-﻿# Créé par GUYARD, le 21/11/2016 en Python 3.2
+﻿# Créé par guyard, le 28/11/2016 en Python 3.2
 
-NomFichier ="Noms.txt"
-Fichier=open(NomFichier,'w')
-Fichier.write("Bonjour a tous")
-Fichier.close()
+from PIL import Image
+
+leo_image = Image.open("Q:\Espace d'échange\Mini projets ISN\mp1-4-annuaire\leo.jpg")
+leo_image.show()
+
