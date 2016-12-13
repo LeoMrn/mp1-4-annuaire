@@ -1,7 +1,11 @@
-﻿# Créé par guyard, le 28/11/2016 en Python 3.2
+﻿# Créé par guyard, le 12/12/2016 en Python 3.2
 
-from PIL import Image
+import os
+import csv
 
-leo_image = Image.open("Q:\Espace d'échange\Mini projets ISN\mp1-4-annuaire\leo.jpg")
-leo_image.show()
+base_chemin = "Q:\Espace d'échange\Mini projets ISN\mp1-4-annuaire"
+os.chdir(base_chemin)
 
+csv_chemin = "Annuaire.csv"
+
+open(Annuaire.csv)
